@@ -63,6 +63,49 @@ Still getting this error:
 Exit code:   1
 ```
 
+Then I realized that I followed the [Visual Studio > Working with Extensions > Continuous Integration](https://code.visualstudio.com/api/working-with-extensions/continuous-integration) guide, 
+which on GitHub using the **GabrielBB/xvfb-action@v1.0** build task to run my `npm test`. 
+Looking at the build log file, it seems to first call:
+
+```bash
+/usr/bin/sudo apt-get install xvfb
+```
+
+And then it runs the test by `xvfb-run`:
+
+```bash
+/usr/bin/xvfb-run --auto-servernum npm test
+```
+
+I did exactly that. But then I am still getting following errors into the output:
+
+```bash
+> node ./out/test/runTest.js
+
+Found .vscode-test/vscode-1.43.2. Skipping download.
+Warning: 'sandbox' is not in the list of known options, but still passed to Electron/Chromium.
+
+[main 2020-04-02T08:40:03.893Z] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/<user>/.config/Code/User'
+
+[main 2020-04-02T08:40:04.346Z] update#setState idle
+
+bash: cannot set terminal process group (-1): Invalid argument
+bash: no job control in this shell
+
+[main 2020-04-02T08:40:34.347Z] update#setState checking for updates
+
+[main 2020-04-02T08:40:35.324Z] update#setState idle
+```
+
+And it hangs forever.
+
+Now I am wondering what do these errors mean:
+
+```bash
+bash: cannot set terminal process group (-1): Invalid argument
+bash: no job control in this shell
+```
+
 ## Other links
 
 https://github.com/containers/toolbox/issues/217
