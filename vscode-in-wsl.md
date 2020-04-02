@@ -1,8 +1,10 @@
 # Running VS Code extension tests in Windows Subsystem for Linux
 
-Set up wsl with Ubuntu-18.04 distro. Install Node and NPM.
+The quest is to run vscode-tests (as in https://github.com/microsoft/vscode-extension-samples/tree/master/helloworld-test-sample) on wsl to locally reproduce build failures.
 
-1. Clone the repo in WSL
+Set up wsl with Ubuntu-18.04 distro. Install, Git Node and NPM.
+
+1. Clone the repo inside WSL
 1. Run `npm install` and `npm test`
 
 Got this error:
@@ -53,7 +55,7 @@ export DISPLAY=<your windows ip>:0
 ```
 Use `ipconfig` on Windows to find the IP address. If you have VPN installed, there may be many virtual adapters.
 
-Still getting
+Still getting this error:
 
 ```bash
 (code:3265): Gtk-WARNING **: 09:21:36.493: cannot open display: 192.168.xxx.xxx:0
