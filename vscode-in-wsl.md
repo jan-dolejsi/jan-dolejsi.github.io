@@ -106,6 +106,49 @@ bash: cannot set terminal process group (-1): Invalid argument
 bash: no job control in this shell
 ```
 
+So let's instead try to use the code from the Azure Pipelines section of the Continuous Integration page [link???].
+
+```bash
+/usr/bin/Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+```
+
+Outputs 
+
+```text
+[1] 392
+```
+
+then 
+
+```bash
+npm test
+```
+
+output
+
+```text
+> node ./out/client/src/test/runTest.js
+
+Downloading VS Code 1.40.1 from https://update.code.visualstudio.com/1.40.1/linux-x64/stable
+Downloaded VS Code 1.40.1 into .vscode-test/vscode-1.40.1
+
+(code:453): Gtk-WARNING **: 12:18:15.497: cannot open display:
+
+Exit code:   1
+Done
+
+Failed to run tests
+npm ERR! Test failed.  See above for more details.
+```
+
+Then following https://superuser.com/questions/310197/how-do-i-fix-a-cannot-open-display-error-when-opening-an-x-program-after-sshi, I checked that I have 
+
+```text
+X11Forwarding yes
+```
+
+in `/etc/ssh/sshd_config`. I did not try setting `X11UseLocalhost no` as suggested by the other answer.
+
 ## Other links
 
 https://github.com/containers/toolbox/issues/217
