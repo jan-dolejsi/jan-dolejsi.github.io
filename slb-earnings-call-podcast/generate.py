@@ -4,7 +4,7 @@ fg = FeedGenerator()
 fg.load_extension('podcast')
 fg.podcast.itunes_category('Schlumberger', 'Earnings')
 fg.title("Schlumberger Earnings Conference Calls")
-fg.logo('https://www.slb.com/-/media/images/logo/logo-white.ashx') # this is an svg white on black image
+fg.logo('https://yt3.ggpht.com/ytc/AAUvwnhEyHhGc_aAIuwXKSepVhNpoZD5p6AWOOLPuZ_8FA=s900-c-k-c0x00ffffff-no-rj')
 fg.link(link={'href': "http://slb.com", 'rel': 'self'})
 fg.description("Schlumberger (SLB: NYSE) is a technology company that partners with customers to access energy. Our people, representing over 160 nationalities, are providing leading digital solutions and deploying innovative technologies to enable performance and sustainability for the global energy industry. With expertise in more than 120 countries, we collaborate to create technology that unlocks access to energy for the benefit of all.")
 fg.link(href='https://jan-dolejsi.github.io/slb-earnings-call-podcast/schlumberger-earnings-conference-calls-podcast.xml', rel='self' )
