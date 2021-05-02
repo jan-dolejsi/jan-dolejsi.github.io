@@ -2,14 +2,28 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
     <channel>
         <title>Schlumberger Earnings Conference Calls</title>
-        <link>http://slb.com</link>
+        <link>https://jan-dolejsi.github.io/slb-earnings-call-podcast/schlumberger-earnings-conference-calls-podcast.xml</link>
         <description>Schlumberger (SLB: NYSE) is a technology company that partners with customers to access energy. Our people, representing over 160 nationalities, are providing leading digital solutions and deploying innovative technologies to enable performance and sustainability for the global energy industry. With expertise in more than 120 countries, we collaborate to create technology that unlocks access to energy for the benefit of all.</description>
         <atom:link href="http://slb.com" rel="self"/>
         <docs>http://www.rssboard.org/rss-specification</docs>
         <generator>python-feedgen</generator>
-        <lastBuildDate>Fri, 30 Apr 2021 23:48:57 +0000</lastBuildDate>
+        <image>
+            <url>https://www.slb.com/-/media/images/logo/logo-white.ashx</url>
+            <title>Schlumberger Earnings Conference Calls</title>
+            <link>https://jan-dolejsi.github.io/slb-earnings-call-podcast/schlumberger-earnings-conference-calls-podcast.xml</link>
+        </image>
+        <language>en</language>
+        <lastBuildDate>Sun, 02 May 2021 15:11:36 +0000</lastBuildDate>
         <itunes:category text="Schlumberger">
             <itunes:category text="Earnings"/></itunes:category>
+        <item>
+            <title>Q1 2012 Schlumberger Earnings Conference Call</title>
+            <link>https://investorcenter.slb.com/events/event-details/q1-2012-schlumberger-earnings-conference-call</link>
+            <description>Last quarterly meeting with Andrew Gould</description>
+            <guid isPermaLink="false">http://podcasting.thomson.com.edgesuite.net/2012/April/SLB/SLB042012.mp3</guid>
+            <enclosure url="http://podcasting.thomson.com.edgesuite.net/2012/April/SLB/SLB042012.mp3" length="60" type="audio/mpeg"/>
+            <pubDate>Sun, 29 Apr 2012 00:00:00 +0000</pubDate>
+        </item>
         <item>
             <title>Q4 2020 Schlumberger Earnings Conference Call</title>
             <link>https://investorcenter.slb.com/events/event-details/q4-2020-schlumberger-earnings-conference-call</link>
