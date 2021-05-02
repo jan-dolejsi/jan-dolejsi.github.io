@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+    <channel>
+        <title>Schlumberger Earnings Conference Calls</title>
+        <link>http://slb.com</link>
+        <description>Schlumberger (SLB: NYSE) is a technology company that partners with customers to access energy. Our people, representing over 160 nationalities, are providing leading digital solutions and deploying innovative technologies to enable performance and sustainability for the global energy industry. With expertise in more than 120 countries, we collaborate to create technology that unlocks access to energy for the benefit of all.</description>
+        <atom:link href="http://slb.com" rel="self"/>
+        <docs>http://www.rssboard.org/rss-specification</docs>
+        <generator>python-feedgen</generator>
+        <lastBuildDate>Fri, 30 Apr 2021 23:48:57 +0000</lastBuildDate>
+        <itunes:category text="Schlumberger">
+            <itunes:category text="Earnings"/></itunes:category>
+        <item>
+            <title>Q4 2020 Schlumberger Earnings Conference Call</title>
+            <link>https://investorcenter.slb.com/events/event-details/q4-2020-schlumberger-earnings-conference-call</link>
+            <description>Act 0.22\nEst 0.174</description>
+            <guid isPermaLink="false">https://investorcenter.slb.com/static-files/0d143b4e-e83b-46a4-9e38-93be31b70e81</guid>
+            <enclosure url="https://investorcenter.slb.com/static-files/0d143b4e-e83b-46a4-9e38-93be31b70e81" length="60" type="audio/mpeg"/>
+            <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>Q1 2021 Schlumberger Earnings Conference Call</title>
+            <link>https://investorcenter.slb.com/events/event-details/q1-2021-schlumberger-earnings-conference-call</link>
+            <description>Act 0.21\nEst 0.186</description>
+            <guid isPermaLink="false">https://investorcenter.slb.com/static-files/9c3997ce-afb7-4fa0-ba70-c26a6eb91d2b</guid>
+            <enclosure url="https://investorcenter.slb.com/static-files/9c3997ce-afb7-4fa0-ba70-c26a6eb91d2b" length="60" type="audio/mpeg"/>
+            <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+        </item>
+    </channel>
+</rss>
