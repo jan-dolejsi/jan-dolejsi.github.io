@@ -22,8 +22,8 @@ In case you want to submit a pull request with a missing episode, or you want to
 
 1. Install Python 3.7+
 2. Clone this repo in GitHub
-3. Run `pip install -r requirements.txt
-4. Populate the episodes.csv with episodes (and if using for a different podcast feed, change the meta data in `generate.py`)
+3. Run `pip install -r requirements.txt`
+4. Populate the `episodes.csv` with episodes (and if using for a different podcast feed, change the meta data in `generate.py`)
 5. Run `python generate.py` to update the `.xml` file of the feed.
 6. Publish the `.xml` file. See [where and how](https://lime.link/blog/where-to-submit-your-podcast/).
 7. Enjoy.

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
         <title>Schlumberger Earnings Conference Calls</title>
         <link>https://jan-dolejsi.github.io/slb-earnings-call-podcast/schlumberger-earnings-conference-calls-podcast.xml</link>
@@ -13,17 +13,9 @@
             <link>https://jan-dolejsi.github.io/slb-earnings-call-podcast/schlumberger-earnings-conference-calls-podcast.xml</link>
         </image>
         <language>en</language>
-        <lastBuildDate>Sun, 02 May 2021 15:18:08 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 28 Jul 2021 11:15:40 +0000</lastBuildDate>
         <itunes:category text="Schlumberger">
             <itunes:category text="Earnings"/></itunes:category>
-        <item>
-            <title>Q1 2012 Schlumberger Earnings Conference Call</title>
-            <link>https://investorcenter.slb.com/events/event-details/q1-2012-schlumberger-earnings-conference-call</link>
-            <description>Last quarterly meeting with Andrew Gould</description>
-            <guid isPermaLink="false">http://podcasting.thomson.com.edgesuite.net/2012/April/SLB/SLB042012.mp3</guid>
-            <enclosure url="http://podcasting.thomson.com.edgesuite.net/2012/April/SLB/SLB042012.mp3" length="60" type="audio/mpeg"/>
-            <pubDate>Sun, 29 Apr 2012 00:00:00 +0000</pubDate>
-        </item>
         <item>
             <title>Q4 2020 Schlumberger Earnings Conference Call</title>
             <link>https://investorcenter.slb.com/events/event-details/q4-2020-schlumberger-earnings-conference-call</link>
@@ -39,6 +31,14 @@
             <guid isPermaLink="false">https://investorcenter.slb.com/static-files/9c3997ce-afb7-4fa0-ba70-c26a6eb91d2b</guid>
             <enclosure url="https://investorcenter.slb.com/static-files/9c3997ce-afb7-4fa0-ba70-c26a6eb91d2b" length="60" type="audio/mpeg"/>
             <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>Q2 2021 Schlumberger Earnings Conference Call</title>
+            <link>https://investorcenter.slb.com/events/event-details/q2-2021-schlumberger-earnings-conference-call</link>
+            <description>revenue of $5.6b and EPS of $0.30</description>
+            <guid isPermaLink="false">https://investorcenter.slb.com/static-files/c68d5b29-4c6a-458e-8e4f-f6db5ae9ec40</guid>
+            <enclosure url="https://investorcenter.slb.com/static-files/c68d5b29-4c6a-458e-8e4f-f6db5ae9ec40" length="59" type="audio/mpeg"/>
+            <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
         </item>
     </channel>
 </rss>
