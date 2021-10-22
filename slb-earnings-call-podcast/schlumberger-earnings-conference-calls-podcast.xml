@@ -13,7 +13,7 @@
             <link>https://jan-dolejsi.github.io/slb-earnings-call-podcast/schlumberger-earnings-conference-calls-podcast.xml</link>
         </image>
         <language>en</language>
-        <lastBuildDate>Wed, 28 Jul 2021 11:15:40 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 22 Oct 2021 16:32:46 +0000</lastBuildDate>
         <itunes:category text="Schlumberger">
             <itunes:category text="Earnings"/></itunes:category>
         <item>
@@ -39,6 +39,14 @@
             <guid isPermaLink="false">https://investorcenter.slb.com/static-files/c68d5b29-4c6a-458e-8e4f-f6db5ae9ec40</guid>
             <enclosure url="https://investorcenter.slb.com/static-files/c68d5b29-4c6a-458e-8e4f-f6db5ae9ec40" length="59" type="audio/mpeg"/>
             <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+            <title>Q3 2021 Schlumberger Earnings Conference Call</title>
+            <link>https://investorcenter.slb.com/events/event-details/q3-2021-schlumberger-earnings-conference-call</link>
+            <description>revenue of $5.85b and EPS of $0.36</description>
+            <guid isPermaLink="false">https://investorcenter.slb.com/static-files/b08ea556-fa85-44cc-83ea-8e0f63d3dfea</guid>
+            <enclosure url="https://investorcenter.slb.com/static-files/b08ea556-fa85-44cc-83ea-8e0f63d3dfea" length="61" type="audio/mpeg"/>
+            <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
         </item>
     </channel>
 </rss>
